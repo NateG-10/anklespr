@@ -1,0 +1,172 @@
+
+
+body {
+    background: #141E30;
+    margin: 0;
+    padding: 0;
+    font-family: 'Encode Sans', sans-serif;
+    white-space: wrap;
+  }
+h1{
+    padding-top: 10px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 0px;
+    font-weight: bold;
+  }
+h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    font-weight: lighter;
+}
+h3{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 14px;
+  font-weight: lighter;
+  line-height: 50px;
+}
+p {
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  padding-bottom: 30px;
+  margin-left: 120px;
+  margin-right: 120px;
+  font-weight: lighter;
+  font-size: 20px;
+}
+img {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mainimage {
+  background-image: url('https://sa1s3optim.patientpop.com/assets/docs/308510.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  }
+ul{
+    text-align: center;
+}
+nav a{
+  display: inline-block;
+  color:white;
+ font-size: 30px;
+ padding: 20px 30px;
+ background-size: 10px;
+ background-color: #023e8a;
+ text-decoration: none;
+  }
+
+a :hover{
+    color: #48cae4;
+  }
+
+a:visited{
+    color: white;
+  }
+nav a:visited{
+color: white;
+}
+
+nav a:hover{
+    color: white; 
+    cursor: pointer;
+    background-color: #03045e;
+}
+
+nav{
+  font-size: 30px;
+  padding: 10px;
+  background-size: 30px;
+  background-color: #023e8a;
+}
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+    padding: 0px 30px;
+}
+
+.nav_links li a{
+    transition: all 0.3 ease 0s;
+}
+
+video{
+  float: right;
+  margin-right: 120px;
+  margin-left: 140px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-width: 17%;
+  max-height: 17%
+
+}
+
+#videodescription{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  
+}
+#videotext{
+  text-align: justify;
+  margin-left: 100px;
+  padding-bottom: 120px;
+  
+}
+
+#videoheader{
+  text-align: center;
+  margin-left: 100px;
+  
+}
+
+#landscapevideo{
+  max-width: 30%;
+  max-height: 30%;
+  margin-left: 100px;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+#landscapevideotext{
+  text-align: justify;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+div {
+  display: inline-block;
+}
+iframe{
+  padding-top: 10px;
+  width:1000px;
+  height:400px;
+  text-align: center;
+  
+}
+body a.TextLink{
+  color:#48cae4
+}
+
+body a.TextLink :hover{
+  color: #48cae4
+}
+
+body a.TextLink :visited{
+  color: #ade8f4
+}
+
+footer{
+  background-color: #023e8a;
+  padding: 20px 30px;
+  text-align: center;
+}
